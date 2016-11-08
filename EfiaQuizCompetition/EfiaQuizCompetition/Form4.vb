@@ -44,4 +44,16 @@
         'Hint 3
         TextBox2.Text = hint3(i)
     End Sub
+
+    Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
+        'Correct
+
+        For i = 0 To 3
+
+        Next
+    End Sub
+
+    Private Sub Button2_Click(sender As Object, e As EventArgs) Handles Button2.Click
+        'Wrong
+    End Sub
 End Class

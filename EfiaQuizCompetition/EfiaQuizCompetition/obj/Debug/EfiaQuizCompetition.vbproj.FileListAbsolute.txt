@@ -53,7 +53,6 @@ C:\Users\Heartwin\Documents\GitHub\efiaquizapp\EfiaQuizCompetition\EfiaQuizCompe
 C:\Users\Heartwin\Documents\GitHub\efiaquizapp\EfiaQuizCompetition\EfiaQuizCompetition\bin\Debug\EfiaQuizCompetition.xml
 C:\Users\Heartwin\Documents\GitHub\efiaquizapp\EfiaQuizCompetition\EfiaQuizCompetition\bin\Debug\Interop.AXVLC.dll
 C:\Users\Heartwin\Documents\GitHub\efiaquizapp\EfiaQuizCompetition\EfiaQuizCompetition\bin\Debug\AxInterop.AXVLC.dll
-C:\Users\Heartwin\Documents\GitHub\efiaquizapp\EfiaQuizCompetition\EfiaQuizCompetition\obj\Debug\EfiaQuizCompetition.vbprojResolveAssemblyReference.cache
 C:\Users\Heartwin\Documents\GitHub\efiaquizapp\EfiaQuizCompetition\EfiaQuizCompetition\obj\Debug\EfiaQuizCompetition.Form1.resources
 C:\Users\Heartwin\Documents\GitHub\efiaquizapp\EfiaQuizCompetition\EfiaQuizCompetition\obj\Debug\EfiaQuizCompetition.Form2.resources
 C:\Users\Heartwin\Documents\GitHub\efiaquizapp\EfiaQuizCompetition\EfiaQuizCompetition\obj\Debug\EfiaQuizCompetition.Form3.resources

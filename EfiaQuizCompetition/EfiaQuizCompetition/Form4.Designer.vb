@@ -33,11 +33,13 @@ Partial Class Form4
         '
         'TextBox1
         '
+        Me.TextBox1.Font = New System.Drawing.Font("Microsoft Sans Serif", 36.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.TextBox1.Location = New System.Drawing.Point(127, 90)
         Me.TextBox1.Multiline = True
         Me.TextBox1.Name = "TextBox1"
         Me.TextBox1.Size = New System.Drawing.Size(1190, 531)
         Me.TextBox1.TabIndex = 0
+        Me.TextBox1.Text = "Cilck Any Button To Begin"
         '
         'Button1
         '
@@ -86,6 +88,7 @@ Partial Class Form4
         '
         'TextBox2
         '
+        Me.TextBox2.Font = New System.Drawing.Font("Microsoft Sans Serif", 36.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.TextBox2.Location = New System.Drawing.Point(1415, 90)
         Me.TextBox2.Multiline = True
         Me.TextBox2.Name = "TextBox2"
