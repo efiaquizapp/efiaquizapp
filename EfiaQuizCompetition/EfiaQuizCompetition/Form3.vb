@@ -4,6 +4,7 @@
         Me.WindowState = 2
     End Sub
 
+<<<<<<< HEAD
     Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
         question = 1
         If round = 1 Then
@@ -403,5 +404,13 @@
             Button1.Enabled = False
         End If
         'close_action()
+=======
+    Private Sub Button7_Click(sender As Object, e As EventArgs) Handles Button7.Click
+
+    End Sub
+
+    Private Sub Button8_Click(sender As Object, e As EventArgs) Handles Button8.Click
+
+>>>>>>> origin/master
     End Sub
 End Class

@@ -22,6 +22,7 @@ Partial Class Form2
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
+        Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(Form2))
         Me.Button1 = New System.Windows.Forms.Button()
         Me.Button2 = New System.Windows.Forms.Button()
         Me.Button3 = New System.Windows.Forms.Button()
@@ -32,53 +33,73 @@ Partial Class Form2
         '
         'Button1
         '
+<<<<<<< HEAD
         Me.Button1.Font = New System.Drawing.Font("Microsoft Sans Serif", 16.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+=======
+        Me.Button1.BackColor = System.Drawing.Color.Silver
+>>>>>>> origin/master
         Me.Button1.Location = New System.Drawing.Point(597, 230)
         Me.Button1.Name = "Button1"
         Me.Button1.Size = New System.Drawing.Size(703, 85)
         Me.Button1.TabIndex = 0
         Me.Button1.Text = "It's a Sort of Selection"
-        Me.Button1.UseVisualStyleBackColor = True
+        Me.Button1.UseVisualStyleBackColor = False
         '
         'Button2
         '
+<<<<<<< HEAD
         Me.Button2.Font = New System.Drawing.Font("Microsoft Sans Serif", 16.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+=======
+        Me.Button2.BackColor = System.Drawing.Color.Silver
+>>>>>>> origin/master
         Me.Button2.Location = New System.Drawing.Point(597, 321)
         Me.Button2.Name = "Button2"
         Me.Button2.Size = New System.Drawing.Size(703, 85)
         Me.Button2.TabIndex = 1
         Me.Button2.Text = "Clueless"
-        Me.Button2.UseVisualStyleBackColor = True
+        Me.Button2.UseVisualStyleBackColor = False
         '
         'Button3
         '
+<<<<<<< HEAD
         Me.Button3.Font = New System.Drawing.Font("Microsoft Sans Serif", 16.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+=======
+        Me.Button3.BackColor = System.Drawing.Color.Silver
+>>>>>>> origin/master
         Me.Button3.Location = New System.Drawing.Point(597, 412)
         Me.Button3.Name = "Button3"
         Me.Button3.Size = New System.Drawing.Size(703, 85)
         Me.Button3.TabIndex = 2
         Me.Button3.Text = "Audio / Visual"
-        Me.Button3.UseVisualStyleBackColor = True
+        Me.Button3.UseVisualStyleBackColor = False
         '
         'Button4
         '
+<<<<<<< HEAD
         Me.Button4.Font = New System.Drawing.Font("Microsoft Sans Serif", 16.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+=======
+        Me.Button4.BackColor = System.Drawing.Color.Gray
+>>>>>>> origin/master
         Me.Button4.Location = New System.Drawing.Point(597, 503)
         Me.Button4.Name = "Button4"
         Me.Button4.Size = New System.Drawing.Size(703, 85)
         Me.Button4.TabIndex = 3
         Me.Button4.Text = "Scategories"
-        Me.Button4.UseVisualStyleBackColor = True
+        Me.Button4.UseVisualStyleBackColor = False
         '
         'Button5
         '
+<<<<<<< HEAD
         Me.Button5.Font = New System.Drawing.Font("Microsoft Sans Serif", 16.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+=======
+        Me.Button5.BackColor = System.Drawing.Color.FromArgb(CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer))
+>>>>>>> origin/master
         Me.Button5.Location = New System.Drawing.Point(597, 594)
         Me.Button5.Name = "Button5"
         Me.Button5.Size = New System.Drawing.Size(703, 85)
         Me.Button5.TabIndex = 4
         Me.Button5.Text = "Rapid Fire"
-        Me.Button5.UseVisualStyleBackColor = True
+        Me.Button5.UseVisualStyleBackColor = False
         '
         'Button6
         '
@@ -95,6 +116,7 @@ Partial Class Form2
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
+        Me.BackgroundImage = CType(resources.GetObject("$this.BackgroundImage"), System.Drawing.Image)
         Me.ClientSize = New System.Drawing.Size(1902, 1033)
         Me.Controls.Add(Me.Button6)
         Me.Controls.Add(Me.Button5)
