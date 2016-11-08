@@ -22,6 +22,7 @@ Partial Class Form4
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
+        Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(Form4))
         Me.TextBox1 = New System.Windows.Forms.TextBox()
         Me.Button1 = New System.Windows.Forms.Button()
         Me.Button2 = New System.Windows.Forms.Button()
@@ -33,6 +34,7 @@ Partial Class Form4
         '
         'TextBox1
         '
+        Me.TextBox1.BackColor = System.Drawing.Color.Gray
         Me.TextBox1.Location = New System.Drawing.Point(127, 90)
         Me.TextBox1.Multiline = True
         Me.TextBox1.Name = "TextBox1"
@@ -41,51 +43,57 @@ Partial Class Form4
         '
         'Button1
         '
+        Me.Button1.BackColor = System.Drawing.Color.Silver
         Me.Button1.Location = New System.Drawing.Point(545, 669)
         Me.Button1.Name = "Button1"
         Me.Button1.Size = New System.Drawing.Size(156, 54)
         Me.Button1.TabIndex = 1
         Me.Button1.Text = "Correct"
-        Me.Button1.UseVisualStyleBackColor = True
+        Me.Button1.UseVisualStyleBackColor = False
         '
         'Button2
         '
+        Me.Button2.BackColor = System.Drawing.Color.Silver
         Me.Button2.Location = New System.Drawing.Point(712, 668)
         Me.Button2.Name = "Button2"
         Me.Button2.Size = New System.Drawing.Size(156, 54)
         Me.Button2.TabIndex = 2
         Me.Button2.Text = "Wrong"
-        Me.Button2.UseVisualStyleBackColor = True
+        Me.Button2.UseVisualStyleBackColor = False
         '
         'Button3
         '
+        Me.Button3.BackColor = System.Drawing.Color.Silver
         Me.Button3.Location = New System.Drawing.Point(172, 815)
         Me.Button3.Name = "Button3"
         Me.Button3.Size = New System.Drawing.Size(239, 87)
         Me.Button3.TabIndex = 3
         Me.Button3.Text = "Hint 1"
-        Me.Button3.UseVisualStyleBackColor = True
+        Me.Button3.UseVisualStyleBackColor = False
         '
         'Button4
         '
+        Me.Button4.BackColor = System.Drawing.Color.Silver
         Me.Button4.Location = New System.Drawing.Point(590, 815)
         Me.Button4.Name = "Button4"
         Me.Button4.Size = New System.Drawing.Size(239, 87)
         Me.Button4.TabIndex = 4
         Me.Button4.Text = "Hint 2"
-        Me.Button4.UseVisualStyleBackColor = True
+        Me.Button4.UseVisualStyleBackColor = False
         '
         'Button5
         '
+        Me.Button5.BackColor = System.Drawing.Color.Silver
         Me.Button5.Location = New System.Drawing.Point(983, 815)
         Me.Button5.Name = "Button5"
         Me.Button5.Size = New System.Drawing.Size(239, 87)
         Me.Button5.TabIndex = 5
         Me.Button5.Text = "Hint 3"
-        Me.Button5.UseVisualStyleBackColor = True
+        Me.Button5.UseVisualStyleBackColor = False
         '
         'TextBox2
         '
+        Me.TextBox2.BackColor = System.Drawing.Color.Gray
         Me.TextBox2.Location = New System.Drawing.Point(1415, 90)
         Me.TextBox2.Multiline = True
         Me.TextBox2.Name = "TextBox2"
@@ -96,6 +104,7 @@ Partial Class Form4
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
+        Me.BackgroundImage = CType(resources.GetObject("$this.BackgroundImage"), System.Drawing.Image)
         Me.ClientSize = New System.Drawing.Size(1902, 1033)
         Me.Controls.Add(Me.TextBox2)
         Me.Controls.Add(Me.Button5)

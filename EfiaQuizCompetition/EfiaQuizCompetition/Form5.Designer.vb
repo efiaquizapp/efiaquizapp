@@ -35,7 +35,7 @@ Partial Class Form5
         Me.AxVLCPlugin21.Location = New System.Drawing.Point(12, 12)
         Me.AxVLCPlugin21.Name = "AxVLCPlugin21"
         Me.AxVLCPlugin21.OcxState = CType(resources.GetObject("AxVLCPlugin21.OcxState"), System.Windows.Forms.AxHost.State)
-        Me.AxVLCPlugin21.Size = New System.Drawing.Size(1516, 710)
+        Me.AxVLCPlugin21.Size = New System.Drawing.Size(1516, 709)
         Me.AxVLCPlugin21.TabIndex = 0
         '
         'Button1
@@ -60,6 +60,7 @@ Partial Class Form5
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
+        Me.BackgroundImage = CType(resources.GetObject("$this.BackgroundImage"), System.Drawing.Image)
         Me.ClientSize = New System.Drawing.Size(1902, 1033)
         Me.Controls.Add(Me.Button2)
         Me.Controls.Add(Me.Button1)
