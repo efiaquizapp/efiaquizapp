@@ -21,7 +21,7 @@
         If i = 3 Then           'change this to the number of seconds
             AxVLCPlugin21.playlist.stop()
             Form2.Show()
-            Form6.Show()
+            Form4.Show()
         End If
     End Sub
 
