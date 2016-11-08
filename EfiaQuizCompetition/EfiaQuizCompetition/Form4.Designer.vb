@@ -56,7 +56,7 @@ Partial Class Form4
         Me.Button2.Name = "Button2"
         Me.Button2.Size = New System.Drawing.Size(156, 54)
         Me.Button2.TabIndex = 2
-        Me.Button2.Text = "Wrong"
+        Me.Button2.Text = "Incorrect"
         Me.Button2.UseVisualStyleBackColor = True
         '
         'Button3

@@ -27,58 +27,76 @@ Partial Class Form2
         Me.Button3 = New System.Windows.Forms.Button()
         Me.Button4 = New System.Windows.Forms.Button()
         Me.Button5 = New System.Windows.Forms.Button()
+        Me.Button6 = New System.Windows.Forms.Button()
         Me.SuspendLayout()
         '
         'Button1
         '
+        Me.Button1.Font = New System.Drawing.Font("Microsoft Sans Serif", 16.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Button1.Location = New System.Drawing.Point(597, 230)
         Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(843, 85)
+        Me.Button1.Size = New System.Drawing.Size(703, 85)
         Me.Button1.TabIndex = 0
         Me.Button1.Text = "It's a Sort of Selection"
         Me.Button1.UseVisualStyleBackColor = True
         '
         'Button2
         '
+        Me.Button2.Font = New System.Drawing.Font("Microsoft Sans Serif", 16.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Button2.Location = New System.Drawing.Point(597, 321)
         Me.Button2.Name = "Button2"
-        Me.Button2.Size = New System.Drawing.Size(843, 85)
+        Me.Button2.Size = New System.Drawing.Size(703, 85)
         Me.Button2.TabIndex = 1
         Me.Button2.Text = "Clueless"
         Me.Button2.UseVisualStyleBackColor = True
         '
         'Button3
         '
+        Me.Button3.Font = New System.Drawing.Font("Microsoft Sans Serif", 16.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Button3.Location = New System.Drawing.Point(597, 412)
         Me.Button3.Name = "Button3"
-        Me.Button3.Size = New System.Drawing.Size(843, 85)
+        Me.Button3.Size = New System.Drawing.Size(703, 85)
         Me.Button3.TabIndex = 2
         Me.Button3.Text = "Audio / Visual"
         Me.Button3.UseVisualStyleBackColor = True
         '
         'Button4
         '
+        Me.Button4.Font = New System.Drawing.Font("Microsoft Sans Serif", 16.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Button4.Location = New System.Drawing.Point(597, 503)
         Me.Button4.Name = "Button4"
-        Me.Button4.Size = New System.Drawing.Size(843, 85)
+        Me.Button4.Size = New System.Drawing.Size(703, 85)
         Me.Button4.TabIndex = 3
         Me.Button4.Text = "Scategories"
         Me.Button4.UseVisualStyleBackColor = True
         '
         'Button5
         '
+        Me.Button5.Font = New System.Drawing.Font("Microsoft Sans Serif", 16.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Button5.Location = New System.Drawing.Point(597, 594)
         Me.Button5.Name = "Button5"
-        Me.Button5.Size = New System.Drawing.Size(843, 85)
+        Me.Button5.Size = New System.Drawing.Size(703, 85)
         Me.Button5.TabIndex = 4
         Me.Button5.Text = "Rapid Fire"
         Me.Button5.UseVisualStyleBackColor = True
+        '
+        'Button6
+        '
+        Me.Button6.Font = New System.Drawing.Font("Microsoft Sans Serif", 13.8!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Button6.ForeColor = System.Drawing.Color.Red
+        Me.Button6.Location = New System.Drawing.Point(130, 321)
+        Me.Button6.Name = "Button6"
+        Me.Button6.Size = New System.Drawing.Size(143, 114)
+        Me.Button6.TabIndex = 5
+        Me.Button6.Text = "Score"
+        Me.Button6.UseVisualStyleBackColor = True
         '
         'Form2
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(1902, 1033)
+        Me.Controls.Add(Me.Button6)
         Me.Controls.Add(Me.Button5)
         Me.Controls.Add(Me.Button4)
         Me.Controls.Add(Me.Button3)
@@ -95,4 +113,5 @@ Partial Class Form2
     Friend WithEvents Button3 As Button
     Friend WithEvents Button4 As Button
     Friend WithEvents Button5 As Button
+    Friend WithEvents Button6 As Button
 End Class

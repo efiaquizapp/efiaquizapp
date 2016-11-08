@@ -1,5 +1,4 @@
 ﻿Public Class Form1
-    Public X As String = "Hi"
     Dim i As Integer
 
     Private Sub Form1_Load(sender As Object, e As EventArgs) Handles MyBase.Load
@@ -19,10 +18,9 @@
     Private Sub Timer1_Tick(sender As Object, e As EventArgs) Handles Timer1.Tick
         i = i + 1
 
-        If i = 3 Then           'change this to the number of seconds
+        If i = 20 Then           '3 change this to the number of seconds
             AxVLCPlugin21.playlist.stop()
             Form2.Show()
-            Form4.Show()
         End If
     End Sub
 

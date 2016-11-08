@@ -35,7 +35,7 @@ Partial Class Form6
         Me.Button1.Name = "Button1"
         Me.Button1.Size = New System.Drawing.Size(449, 226)
         Me.Button1.TabIndex = 0
-        Me.Button1.Text = "Button1"
+        Me.Button1.Text = "Maths"
         Me.Button1.UseVisualStyleBackColor = True
         '
         'Button2
@@ -44,7 +44,7 @@ Partial Class Form6
         Me.Button2.Name = "Button2"
         Me.Button2.Size = New System.Drawing.Size(449, 226)
         Me.Button2.TabIndex = 1
-        Me.Button2.Text = "Button2"
+        Me.Button2.Text = "General Knowledge"
         Me.Button2.UseVisualStyleBackColor = True
         '
         'Button3
@@ -53,7 +53,7 @@ Partial Class Form6
         Me.Button3.Name = "Button3"
         Me.Button3.Size = New System.Drawing.Size(449, 226)
         Me.Button3.TabIndex = 2
-        Me.Button3.Text = "Button3"
+        Me.Button3.Text = "Science"
         Me.Button3.UseVisualStyleBackColor = True
         '
         'Button4
@@ -62,7 +62,7 @@ Partial Class Form6
         Me.Button4.Name = "Button4"
         Me.Button4.Size = New System.Drawing.Size(449, 226)
         Me.Button4.TabIndex = 3
-        Me.Button4.Text = "Button4"
+        Me.Button4.Text = "Computer"
         Me.Button4.UseVisualStyleBackColor = True
         '
         'Button5
@@ -71,7 +71,7 @@ Partial Class Form6
         Me.Button5.Name = "Button5"
         Me.Button5.Size = New System.Drawing.Size(449, 226)
         Me.Button5.TabIndex = 4
-        Me.Button5.Text = "Button5"
+        Me.Button5.Text = "History"
         Me.Button5.UseVisualStyleBackColor = True
         '
         'Form6

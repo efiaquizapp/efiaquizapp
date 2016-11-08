@@ -62,7 +62,7 @@ Partial Class Form1
         Me.Controls.Add(Me.AxVLCPlugin21)
         Me.Controls.Add(Me.Label1)
         Me.Name = "Form1"
-        Me.Text = "Form1"
+        Me.Text = "EIFIA QUIZ APPLICATION"
         CType(Me.AxVLCPlugin21, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
         Me.PerformLayout()
